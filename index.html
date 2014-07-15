@@ -29,7 +29,7 @@ root@host:~# apt-get install parted kpartx
 <pre>
 user@host:~$ sudo -i # become root
 root@host:~# git clone https://github.com/andsens/bootstrap-vz.git # Clone the repo
-root@host:~# apt-get install qemu-utils debootstrap python-pip # Install dependencies from aptitude
+root@host:~# apt-get install qemu-utils debootstrap python-pip nbd-client # Install dependencies from aptitude
 root@host:~# pip install termcolor jsonschema fysom # Install python dependencies
 root@host:~# bootstrap-vz/bootstrap-vz manifests/virtualbox-vagrant.manifest.json
 </pre>
